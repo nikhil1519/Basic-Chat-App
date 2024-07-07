@@ -1,0 +1,49 @@
+/* react_app1/src/components/Chat.css */
+
+.chat-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.messages {
+    height: 200px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.message {
+    margin: 5px 0;
+}
+
+.sender {
+    font-weight: bold;
+}
+
+.input-container {
+    display: flex;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
